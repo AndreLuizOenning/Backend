@@ -1,0 +1,9 @@
+Tópico: Meirylene Avelino
+
+	* Combater Pishing: Monitoramento de usuário
+	
+o local de acesso é algo a ser considerado: Impedir QUALQUER alteração no registro de alguma conta se haver mudança brusca de local de acesso, por exemplo, de Florianópolis a Manaus, pois provavelmente não será a mesma pessoa acessando a conta, ou seja, pode ser que seja um golpista tentando alterar os dados da conta
+
+Restrições nas alterações: senhas e email não podem ser alterados no mesmo dia, para evitar que a pessoa perca o acesso total a conta antes que perceba o golpe, podendo reaver a conta
+
+CLEAR SALE. Engenharia social: o que é e como se proteger. Disponível em: https://blogbr.clear.sale/engenharia-social-o-que-e-e-como-se-proteger. Acesso em: 23 out. 2024.
