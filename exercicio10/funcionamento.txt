@@ -1,0 +1,33 @@
+
+GET: 
+    * /playlists: Lista todas as playlists.
+        -> Status esperado: 200 OK
+        -> Status esperado em caso de erro: 404 Not Found
+    * /playlists/{id}: Retorna uma playlist específica.
+        -> Status esperado: 200 OK
+        -> Status esperado em caso de erro: 404 Not Found
+    * /playlists/{playlistId}/songs: Lista todas as músicas de uma playlist.
+        -> Status esperado: 200 OK
+        -> Status esperado em caso de erro: 404 Not Found
+
+
+
+POST: 
+    * /playlists/{playlistId}/songs: Adiciona uma música à playlist.
+        -> Status esperado: 201 created
+        -> Erro esperado: 404 Bad Request
+    * /playlists: Cria uma nova playlist.
+        -> Status esperado: 201 created
+        -> Erro esperado: 400 Bad Request
+
+
+
+DELETE: 
+    * /playlists/{playlistId}/songs/{songId}: Remove uma música de uma playlist.
+        -> Status esperado: 204 No Content
+        -> Erro esperado: 404 Not Found
+    
+    * /playlists/{id}: Remove uma playlist.
+        -> Status esperado: 204 No Content
+        -> Erro esperado: 404 Not Found
+
